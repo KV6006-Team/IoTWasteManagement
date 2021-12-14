@@ -1,0 +1,233 @@
+body {
+	overflow-x:hidden;
+	font-family: sans-serif;	
+}
+
+header{
+	text-decoration:underline;
+	font-family:"Arial Black", Gadget,sans-serif;
+}
+
+nav ul{
+	padding-left:0px;
+}
+
+nav li{
+	list-style-type: none;
+	display:inline-block;
+	padding: 10px;
+	margin-right: 5px;
+	background-color:lightblue;
+	border: 5px solid black;
+	border-radius : 5px;
+}
+
+li a{
+	text-decoration: none;
+	color:black;
+}
+
+main{
+	width:100%;
+	position:absolute;
+	top:180px;
+	padding-bottom:100px;
+
+	
+}
+
+main a{
+	text-decoration:none;
+	color:black;
+}
+
+.item{
+	padding: 5px;
+	margin-top: 20px;
+	background: lightblue;
+	border:5px solid black;
+	border-radius:15px;
+	display:flex;
+	flex-direction:row;
+	width:98%;
+}
+
+.bookTitle{
+	margin:10px;
+	padding:10px;
+	width:40%;
+}
+
+.bookYear{
+	margin:10px;
+	padding:10px;
+	width:20%;
+}
+
+.catDesc{
+	margin:10px;
+	padding:10px;
+	width:20%;
+}
+
+.pubName{
+	margin:10px;
+	padding:10px;
+	width:20%;
+}
+
+.bookPrice{
+	margin:10px;
+	padding:10px;
+	width:auto;
+}
+
+.chosen{
+	margin:10px;
+	padding:10px;
+
+}
+
+#orderForm input[type=text]{
+	display:inline-block;
+	margin-top:2px;
+	padding:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border: 2px solid black;
+	border-radius:5px;
+	background-color:lightblue;
+	width:20%;
+	box-sizing:border-box;
+}
+
+#orderForm select{
+	width:10%;
+	display:inline-block;
+	background-color:lightblue;
+	padding:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:2px solid black;
+	border-radius:5px;
+	cursor:pointer;
+	box-sizing:border-box;
+}
+
+#updateForm{
+	height:100%;
+	width:50%;
+	padding:10px;
+	border:5px solid black;
+	border-radius: 5px;
+	text-align:center;
+
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#updateForm input{
+	display:inline-block;
+	margin-top:2px;
+	padding:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border: 2px solid black;
+	border-radius:5px;
+	background-color:lightblue;
+	width:50%;
+	box-sizing:border-box;
+}
+
+#updateForm input[type=submit]{
+	display:inline-block;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#updateForm select{
+	width:50%;
+	display:inline-block;
+	background-color:lightblue;
+	padding:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:2px solid black;
+	border-radius:5px;
+	cursor:pointer;
+	box-sizing:border-box;
+}
+
+label{
+	width:100%;
+	display:block;
+	margin-top:5px;
+	padding-top:5px;
+	padding-bottom:5px;	
+}
+
+#left{
+	width:50%;
+	height:100px;
+	float:left;
+}
+
+#right{
+	width:50%;
+	height:100px;
+	float:right;
+
+	font-family: sans-serif;
+}
+
+#right form{
+	float:right;
+	margin-top:15px;
+	
+}
+
+#logout {
+	background-color: lightblue;
+	border: 5px solid black;
+	border-radius:5px;
+	
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+#offersTitle{
+	text-align:center;
+}
+
+aside{
+	display:inline-block;
+	width:50%;
+	text-align:center;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.category{
+	font-weight:normal;
+}
+
+.price{
+	font-weight:normal;
+}
+
+footer{
+	position:fixed;
+	bottom:0;
+	left:0;
+	background-color: lightblue;
+	padding:10px;
+	height:50px;
+	width:100%;
+	border:1px solid black;
+}
